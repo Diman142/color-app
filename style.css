@@ -1,0 +1,92 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+  outline: none;
+}
+
+
+.red .ui-widget-header {
+  background-color: red;
+}
+
+.red .ui-state-default,
+.ui-widget-content .ui-state-default {
+  border: 1px solid red;
+}
+
+.green .ui-widget-header {
+  background-color: green;
+}
+
+.green .ui-state-default,
+.ui-widget-content .ui-state-default {
+  border: 1px solid green;
+}
+
+
+.blue .ui-widget-header {
+  background-color: blue;
+}
+
+.blue .ui-state-default,
+.ui-widget-content .ui-state-default {
+  border: 1px solid blue;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 0 10px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #eaeaea;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #a6a6a6;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+
+}
+
+.user-slider {
+  display: inline-block;
+  width: 60%;
+  margin-right: 5rem;
+}
+
+.user-text {
+  position: relative;
+  padding: 15px;
+  border: 1px solid blueviolet;
+  display: inline-block;
+  width: 25%;
+  right: -5%;
+}
+
+.btn-active {
+  background-color: #007fff;
+  color: #fff;
+}
+
+.btn-active:hover {
+  background-color: #007fff;
+}
